@@ -3,13 +3,20 @@ import {
   Switch,
   Route,
   Link
-} from "react-router-dom";
-import AtomsAudio from "./atoms/audio";
+} from 'react-router-dom'
+
+import AtomsAudio from './atoms/audio'
+
+import SayHello from 'ds-package'
 
 export default function App() {
   return (
     <Router>
       <div>
+        <p>
+          <SayHello name="Robson" />
+        </p>
+
         <nav>
           <ul>
             <li>
